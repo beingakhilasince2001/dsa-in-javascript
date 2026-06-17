@@ -1,0 +1,648 @@
+Yes. This is the right kind of drill.
+
+Not random LeetCode yet. First we build **Array Method Reflexes**.
+
+Your goal:
+
+```text
+See problem
+↓
+Identify method
+↓
+Explain why
+↓
+Code from memory
+```
+
+# JavaScript Array Methods War Sheet
+
+## Rule
+
+For every problem write:
+
+```text
+Method =
+Why this method =
+Mutates original? =
+Time =
+Space =
+Code =
+```
+
+---
+
+# 1. `push()` — Add to end
+
+### P1
+
+Given `[1,2,3]`, add `4`.
+
+### P2
+
+Build an array of numbers from `1` to `n`.
+
+### P3
+
+Given array of names, add `"Akhila"` only if not already present.
+
+### P4
+
+Collect all even numbers from `[1,2,3,4,5,6]` into a new array using loop + push.
+
+### P5
+
+Given a string `"abc"`, create `["a","b","c"]` using loop + push.
+
+---
+
+# 2. `pop()` — Remove from end
+
+### P1
+
+Remove last element from `[10,20,30]`.
+
+### P2
+
+Keep removing last element until array length becomes `2`.
+
+### P3
+
+Use `pop()` to reverse `[1,2,3]` into a new array.
+
+### P4
+
+Simulate browser back button using stack.
+
+### P5
+
+Check if parentheses string `"(()"` has unmatched opening brackets using stack idea.
+
+---
+
+# 3. `shift()` — Remove from start
+
+### P1
+
+Remove first element from `[10,20,30]`.
+
+### P2
+
+Process queue of customers one by one.
+
+### P3
+
+Keep removing first element until array is empty.
+
+### P4
+
+Given tasks queue, remove completed first task.
+
+### P5
+
+Simulate print queue using `shift()`.
+
+---
+
+# 4. `unshift()` — Add to start
+
+### P1
+
+Add `0` to start of `[1,2,3]`.
+
+### P2
+
+Build countdown array `[5,4,3,2,1]` using `unshift`.
+
+### P3
+
+Add urgent task to front of queue.
+
+### P4
+
+Reverse array using loop + `unshift`.
+
+### P5
+
+Add `"admin"` as first user in users list.
+
+---
+
+# 5. `splice()` — Add/remove anywhere
+
+### P1
+
+Remove element at index `2` from `[10,20,30,40]`.
+
+### P2
+
+Insert `99` at index `1`.
+
+### P3
+
+Replace `30` with `300`.
+
+### P4
+
+Remove 2 elements starting from index `1`.
+
+### P5
+
+Given `[1,2,4,5]`, insert `3` at correct position.
+
+---
+
+# 6. `slice()` — Copy portion
+
+### P1
+
+Get first 3 elements.
+
+### P2
+
+Get last 2 elements.
+
+### P3
+
+Copy array without mutation.
+
+### P4
+
+Get subarray from index `2` to `5`.
+
+### P5
+
+Given `"hello"` converted to array, extract `["e","l","l"]`.
+
+---
+
+# 7. `map()` — Transform each element
+
+### P1
+
+Square every number.
+
+### P2
+
+Convert Celsius temperatures to Fahrenheit.
+
+### P3
+
+Given users, return only their names.
+
+### P4
+
+Add `"Mr/Ms "` prefix to every name.
+
+### P5
+
+Convert array of numbers to strings.
+
+---
+
+# 8. `filter()` — Keep matching elements
+
+### P1
+
+Keep positive numbers.
+
+### P2
+
+Keep even numbers.
+
+### P3
+
+Remove empty strings from array.
+
+### P4
+
+Filter users older than 18.
+
+### P5
+
+From products, keep items with price under 500.
+
+---
+
+# 9. `reduce()` — Convert array to one value
+
+### P1
+
+Sum numbers.
+
+### P2
+
+Find product of numbers.
+
+### P3
+
+Find maximum using reduce.
+
+### P4
+
+Count frequency of characters in `"banana"`.
+
+### P5
+
+Group users by role.
+
+---
+
+# 10. `find()` — First matching element
+
+### P1
+
+Find first even number.
+
+### P2
+
+Find first user with age > 18.
+
+### P3
+
+Find product with id `3`.
+
+### P4
+
+Find first negative number.
+
+### P5
+
+Find first word longer than 5 characters.
+
+---
+
+# 11. `findIndex()` — Index of first match
+
+### P1
+
+Find index of first negative number.
+
+### P2
+
+Find index of user with name `"Akhila"`.
+
+### P3
+
+Find index of first even number.
+
+### P4
+
+Find index of product with price > 1000.
+
+### P5
+
+Find index of first empty string.
+
+---
+
+# 12. `includes()` — Exists or not
+
+### P1
+
+Check if array contains `5`.
+
+### P2
+
+Check if `"admin"` exists in roles.
+
+### P3
+
+Check if banned word exists in sentence words.
+
+### P4
+
+Check if selected item exists in cart.
+
+### P5
+
+Check if character `"a"` exists in array of letters.
+
+---
+
+# 13. `indexOf()` — Position of value
+
+### P1
+
+Find index of `30`.
+
+### P2
+
+Find first index of `"apple"`.
+
+### P3
+
+Check if item exists using `indexOf`.
+
+### P4
+
+Find index of first repeated `"a"`.
+
+### P5
+
+Return `-1` when item doesn't exist.
+
+---
+
+# 14. `some()` — At least one
+
+### P1
+
+Check if any number is negative.
+
+### P2
+
+Check if any user is admin.
+
+### P3
+
+Check if any product is out of stock.
+
+### P4
+
+Check if any word has length > 10.
+
+### P5
+
+Check if any mark is below pass mark.
+
+---
+
+# 15. `every()` — All satisfy
+
+### P1
+
+Check if all numbers are positive.
+
+### P2
+
+Check if all users are active.
+
+### P3
+
+Check if all products are in stock.
+
+### P4
+
+Check if all marks are passing.
+
+### P5
+
+Check if all strings are non-empty.
+
+---
+
+# 16. `sort()` — Sort
+
+### P1
+
+Sort numbers ascending.
+
+### P2
+
+Sort numbers descending.
+
+### P3
+
+Sort strings alphabetically.
+
+### P4
+
+Sort users by age.
+
+### P5
+
+Sort products by price low to high.
+
+---
+
+# 17. `reverse()` — Reverse original
+
+### P1
+
+Reverse `[1,2,3]`.
+
+### P2
+
+Reverse characters of `"hello"`.
+
+### P3
+
+Check palindrome using reverse.
+
+### P4
+
+Reverse words in a sentence.
+
+### P5
+
+Reverse array after sorting.
+
+---
+
+# 18. `join()` — Array to string
+
+### P1
+
+Convert `["a","b","c"]` to `"abc"`.
+
+### P2
+
+Convert `[1,2,3]` to `"1-2-3"`.
+
+### P3
+
+Build sentence from words.
+
+### P4
+
+Create CSV row from array.
+
+### P5
+
+Join characters after reversing string.
+
+---
+
+# 19. `flat()` — Flatten nested arrays
+
+### P1
+
+Flatten `[[1,2],[3,4]]`.
+
+### P2
+
+Flatten `[[1],[2],[3]]`.
+
+### P3
+
+Flatten matrix and count negatives.
+
+### P4
+
+Flatten nested tags from posts.
+
+### P5
+
+Flatten one level only from mixed nested array.
+
+---
+
+# 20. `concat()` — Merge arrays
+
+### P1
+
+Merge `[1,2]` and `[3,4]`.
+
+### P2
+
+Combine frontend and backend skills arrays.
+
+### P3
+
+Add new items without mutating original.
+
+### P4
+
+Merge multiple arrays.
+
+### P5
+
+Combine search results from two APIs.
+
+---
+
+# Final Boss Mixed Problems
+
+### M1
+
+Given array of numbers, return squares of only even numbers.
+
+Expected method:
+
+```text
+filter + map
+```
+
+### M2
+
+Given users, return names of active users older than 18.
+
+Expected method:
+
+```text
+filter + map
+```
+
+### M3
+
+Given products, check if all in-stock products are under 1000.
+
+Expected method:
+
+```text
+filter + every
+```
+
+### M4
+
+Given string `"dfa12321afd"`, return second highest digit.
+
+Expected:
+
+```text
+loop / Set / sort
+```
+
+### M5
+
+Given nested matrix, count negative numbers.
+
+Expected:
+
+```text
+flat + filter + length
+```
+
+### M6
+
+Given transactions, calculate total expense.
+
+Expected:
+
+```text
+filter + reduce
+```
+
+### M7
+
+Given cart items, find first item above 5000.
+
+Expected:
+
+```text
+find
+```
+
+### M8
+
+Given roles array, check if user has admin or manager.
+
+Expected:
+
+```text
+some / includes
+```
+
+### M9
+
+Given array with duplicates, return unique values.
+
+Expected:
+
+```text
+Set
+```
+
+### M10
+
+Given users, group them by department.
+
+Expected:
+
+```text
+reduce
+```
+
+---
+
+# Scoring
+
+```text
+80 problems total
+```
+
+Bronze:
+
+```text
+30 solved
+```
+
+Silver:
+
+```text
+50 solved
+```
+
+Gold:
+
+```text
+70 solved
+```
+
+Legendary:
+
+```text
+80 solved + explain method choice
+```
+
+Do these before random LeetCode and your JavaScript array methods will become automatic.
