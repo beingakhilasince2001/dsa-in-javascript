@@ -1,0 +1,81 @@
+📦 Add / Remove Elements
+
+| Method         | Mutates? | Purpose                          |
+| -------------- | -------- | -------------------------------- |
+| `push()`       | ✅        | Add to end                       |
+| `pop()`        | ✅        | Remove from end                  |
+| `shift()`      | ✅        | Remove from start                |
+| `unshift()`    | ✅        | Add to start                     |
+| `splice()`     | ✅        | Insert/remove anywhere           |
+| `fill()`       | ✅        | Fill array with value            |
+| `copyWithin()` | ✅        | Copy part of array within itself |
+
+
+🔍 Search / Find
+
+| Method            | Mutates? | Returns                |
+| ----------------- | -------- | ---------------------- |
+| `includes()`      | ❌        | true/false             |
+| `indexOf()`       | ❌        | First index            |
+| `lastIndexOf()`   | ❌        | Last index             |
+| `find()`          | ❌        | First matching element |
+| `findIndex()`     | ❌        | Index of first match   |
+| `findLast()`      | ❌        | Last matching element  |
+| `findLastIndex()` | ❌        | Index of last match    |
+
+
+🔄 Transform Arrays
+
+| Method         | Mutates? | Purpose                |
+| -------------- | -------- | ---------------------- |
+| `map()`        | ❌        | Transform elements     |
+| `filter()`     | ❌        | Keep matching elements |
+| `flat()`       | ❌        | Flatten nested arrays  |
+| `flatMap()`    | ❌        | Map + Flatten          |
+| `concat()`     | ❌        | Merge arrays           |
+| `slice()`      | ❌        | Copy portion           |
+| `toSpliced()`  | ❌        | Non-mutating splice    |
+| `toSorted()`   | ❌        | Non-mutating sort      |
+| `toReversed()` | ❌        | Non-mutating reverse   |
+
+
+🧮 Aggregate / Calculate
+
+| Method          | Mutates? | Purpose                |
+| --------------- | -------- | ---------------------- |
+| `reduce()`      | ❌        | Reduce to single value |
+| `reduceRight()` | ❌        | Reduce right-to-left   |
+
+
+🔁 Iteration Methods
+
+| Method      | Mutates? | Purpose    |
+| ----------- | -------- | ---------- |
+| `forEach()` | ❌        | Loop       |
+| `map()`     | ❌        | Transform  |
+| `filter()`  | ❌        | Filter     |
+| `reduce()`  | ❌        | Aggregate  |
+| `some()`    | ❌        | Any match? |
+| `every()`   | ❌        | All match? |
+
+
+📋 Sorting / Reversing
+
+| Method         | Mutates? |
+| -------------- | -------- |
+| `sort()`       | ✅        |
+| `reverse()`    | ✅        |
+| `toSorted()`   | ❌        |
+| `toReversed()` | ❌        |
+
+
+Convert Array ↔ String
+
+| Method             | Mutates? | Purpose        |
+| ------------------ | -------- | -------------- |
+| `join()`           | ❌        | Array → String |
+| `toString()`       | ❌        | Array → String |
+| `toLocaleString()` | ❌        | Locale string  |
+
+
+
